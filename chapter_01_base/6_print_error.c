@@ -6,7 +6,6 @@
 
 int main(int argc, char *argv[])
 {
-
     printf("%d\n", EACCES);
     fprintf(stderr, "EACCES info: %s\n", strerror(EACCES));
     errno = ENOENT;
